@@ -60,7 +60,8 @@ public class Student extends Person {
 	public void setAverageGrade(double averageGrade) {
 		this.averageGrade = averageGrade;
 	}
-
+	
+	//first grade finns redan, sätter second och third grade
 	public double calculateAverage(double firstGrade){
 		double sum = firstGrade +secondGrade +thirdGrade;
 		double average = sum /3;
